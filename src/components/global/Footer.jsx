@@ -27,16 +27,16 @@ function Footer() {
               Ranchi, Jharkhand, 834001
             </address>
             <div className="mt-4 flex gap-6">
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61577187622440">
                 <FaFacebookF className="text-zinc-400 text-xl" />
               </a>
-              <a href="#">
+              <a href="https://x.com/qurasphere">
                 <FaXTwitter className="text-zinc-400 text-xl" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/company/qurasphere/">
                 <FaLinkedinIn className="text-zinc-400 text-xl" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/qurasphere/">
                 <FaInstagram className="text-zinc-400 text-xl" />
               </a>
             </div>
@@ -44,34 +44,34 @@ function Footer() {
           <ul className="text-gray-400 flex flex-col gap-2 w-fit flex-grow">
             <h3 className="text-xl font-semibold mb-4 text-white">Services</h3>
             <li>
-              <a href="#" target="_blank">
+              <Link to="/services" target="_blank">
                 Web Design
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <Link to="/services" target="_blank">
                 Website Development
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <Link to="/services" target="_blank">
                 Drupal Development
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <Link to="/services" target="_blank">
                 WordPress Development
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <Link to="/api-development" target="_blank">
                 API Development
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <Link to="/services" target="_blank">
                 Software Development
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="text-gray-400 flex flex-col gap-2 w-fit flex-grow">
@@ -99,7 +99,7 @@ function Footer() {
           </ul>
         </footer>
         <div className="w-full h-[1px] bg-zinc-600 mt-12"></div>
-        <p className="flex flex-col md:flex-row md:justify-between gap-4 text-center max-w-screen-xl mx-auto pt-6 px-8 text-zinc-400">
+        <div className="flex flex-col md:flex-row md:justify-between gap-4 text-center max-w-screen-xl mx-auto pt-6 px-8 text-zinc-400">
           <ul className="flex items-center justify-center gap-4">
             <li>
               <a href="#">Privacy Policy</a>
@@ -109,7 +109,7 @@ function Footer() {
             </li>
           </ul>
           <div>© 2025 Qurasphere. All rights reserved.</div>
-        </p>
+        </div>
       </div>
     </>
   );
