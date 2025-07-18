@@ -87,16 +87,16 @@ function AboutUs() {
         twitter: '',
       },
     },
-    {
-      name: 'Sharif Iqbal Jamil',
-      position: 'Frontend Developer',
-      image: 'sarif.png',
-      social: {
-        linkedin: 'https://www.linkedin.com/in/grimwebdeveloper/',
-        gmail: 'mailto:grimwebdeveloper@gmail.com',
-        twitter: 'https://x.com/grimdeveloper',
-      },
-    },
+    // {
+    //   name: 'Sharif Iqbal Jamil',
+    //   position: 'Frontend Developer',
+    //   image: 'sarif.png',
+    //   social: {
+    //     linkedin: 'https://www.linkedin.com/in/grimwebdeveloper/',
+    //     gmail: 'mailto:grimwebdeveloper@gmail.com',
+    //     twitter: 'https://x.com/grimdeveloper',
+    //   },
+    // },
   ];
   return (
     <>
