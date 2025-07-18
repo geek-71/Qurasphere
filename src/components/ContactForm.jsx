@@ -15,10 +15,10 @@ function ContactForm() {
             <li className="flex items-center gap-2 mb-2">
               <FaPhoneAlt className="text-lg text-blue-600" />
               <a
-                href="tel:+916204663143"
+                href="tel:+919942671046"
                 className="hover:text-blue-600 transition-colors"
               >
-                +91 6204663143
+                +91 9942671046
               </a>
             </li>
             <li className="flex items-center gap-2 mb-2">
