@@ -23,8 +23,12 @@ function Footer() {
                 QuraSphere
               </h2>
             </a>
+            <h3 lassName="mt-2 text-zinc-400 not-italic">Our Branches</h3>
             <address className="mt-2 text-zinc-400 not-italic">
               Ranchi, Jharkhand, 834001
+            </address>
+            <address className="mt-2 text-zinc-400 not-italic">
+              Kolkata,West Bengal, 700039
             </address>
             <div className="mt-4 flex gap-6">
               <a href="https://www.facebook.com/profile.php?id=61577187622440">
@@ -108,7 +112,7 @@ function Footer() {
               <a href="#">Terms of Services</a>
             </li>
           </ul>
-          <div>© 2025 Qurasphere. All rights reserved.</div>
+          <div>© 2026 Qurasphere. All rights reserved.</div>
         </div>
       </div>
     </>
