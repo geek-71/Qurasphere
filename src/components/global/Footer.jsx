@@ -23,7 +23,7 @@ function Footer() {
                 QuraSphere
               </h2>
             </a>
-            <h3 lassName="mt-2 text-zinc-400 not-italic">Our Branches</h3>
+            <h3 lassName="mt-2 text-zinc-400 not-italic pt-2">Our Branches</h3>
             <address className="mt-2 text-zinc-400 not-italic">
               Ranchi, Jharkhand, 834001
             </address>
